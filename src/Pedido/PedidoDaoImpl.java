@@ -76,6 +76,24 @@ public class PedidoDaoImpl implements PedidoDao{
         }
     }
     
+    public void removerPedidosByIdCliente(int id) {
+        PreparedStatement st = null;
+        try {
+            st = con.prepareStatement("DELETE FROM tb_pedido WHERE id_cliente = ?");
+            st.setString(1, Integer.toString(id));
+            int rowsAffected = st.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (st != null) {
+                try {
+                    st.close();
+                } catch (Exception ex) {
+                }
+            }
+        }
+    }
+       
     public void UpdateStatus(int id, int idStatus) {
         PreparedStatement st = null;
         try {

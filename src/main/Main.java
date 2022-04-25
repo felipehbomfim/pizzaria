@@ -273,7 +273,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btBuscar);
-        btBuscar.setBounds(631, 25, 110, 22);
+        btBuscar.setBounds(631, 25, 110, 23);
 
         tabela.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -310,7 +310,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btAdicionarCliente);
-        btAdicionarCliente.setBounds(631, 60, 110, 22);
+        btAdicionarCliente.setBounds(631, 60, 110, 23);
 
         btEditarCliente.setText("Editar");
         btEditarCliente.addActionListener(new java.awt.event.ActionListener() {
@@ -319,7 +319,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btEditarCliente);
-        btEditarCliente.setBounds(631, 94, 110, 22);
+        btEditarCliente.setBounds(631, 94, 110, 23);
 
         btExcluirCliente.setText("Excluir");
         btExcluirCliente.addActionListener(new java.awt.event.ActionListener() {
@@ -328,17 +328,17 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btExcluirCliente);
-        btExcluirCliente.setBounds(631, 128, 110, 22);
+        btExcluirCliente.setBounds(631, 128, 110, 23);
 
         lbErro.setForeground(new java.awt.Color(255, 51, 51));
         lbErro.setText("POR FAVOR, SELECIONE UM CLIENTE CLICANDO NA LINHA.");
         jPanel1.add(lbErro);
-        lbErro.setBounds(110, 380, 460, 16);
+        lbErro.setBounds(110, 380, 460, 14);
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Digite o que deseja buscar:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(25, 6, 303, 16);
+        jLabel1.setBounds(25, 6, 303, 14);
 
         AddPedido.setText("Novo Pedido");
         AddPedido.addActionListener(new java.awt.event.ActionListener() {
@@ -347,7 +347,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(AddPedido);
-        AddPedido.setBounds(631, 162, 110, 22);
+        AddPedido.setBounds(631, 162, 110, 23);
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pizzaback.jpg"))); // NOI18N
         jPanel1.add(jLabel9);
@@ -389,7 +389,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel7.add(ListarItens);
-        ListarItens.setBounds(460, 80, 320, 22);
+        ListarItens.setBounds(460, 80, 320, 23);
 
         Status3.setText("MUDAR STATUS PARA ENTREGUE");
         Status3.addActionListener(new java.awt.event.ActionListener() {
@@ -398,13 +398,13 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel7.add(Status3);
-        Status3.setBounds(460, 170, 320, 22);
+        Status3.setBounds(460, 170, 320, 23);
 
         lbErroPedidos.setForeground(new java.awt.Color(255, 51, 0));
         lbErroPedidos.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbErroPedidos.setText("SELECIONE AO MENOS UM PEDIDO");
         jPanel7.add(lbErroPedidos);
-        lbErroPedidos.setBounds(10, 390, 450, 16);
+        lbErroPedidos.setBounds(10, 390, 450, 14);
 
         buscar_pedidos.setText("BUSCAR");
         buscar_pedidos.addActionListener(new java.awt.event.ActionListener() {
@@ -413,14 +413,14 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel7.add(buscar_pedidos);
-        buscar_pedidos.setBounds(460, 40, 320, 22);
+        buscar_pedidos.setBounds(460, 40, 320, 23);
         jPanel7.add(buscaPedidos);
-        buscaPedidos.setBounds(10, 40, 440, 22);
+        buscaPedidos.setBounds(10, 40, 440, 20);
 
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Digite o que deseja buscar:");
         jPanel7.add(jLabel10);
-        jLabel10.setBounds(10, 10, 230, 16);
+        jLabel10.setBounds(10, 10, 230, 14);
 
         Status2.setText("MUDAR STATUS PARA A CAMINHO");
         Status2.addActionListener(new java.awt.event.ActionListener() {
@@ -429,7 +429,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel7.add(Status2);
-        Status2.setBounds(460, 140, 320, 22);
+        Status2.setBounds(460, 140, 320, 23);
 
         Status1.setText("MUDAR STATUS PARA ABERTO");
         Status1.addActionListener(new java.awt.event.ActionListener() {
@@ -438,7 +438,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel7.add(Status1);
-        Status1.setBounds(460, 110, 320, 22);
+        Status1.setBounds(460, 110, 320, 23);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pizzaback.jpg"))); // NOI18N
         jPanel7.add(jLabel11);
@@ -454,7 +454,7 @@ public class Main extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Digite o que deseja buscar:");
         jPanel4.add(jLabel2);
-        jLabel2.setBounds(20, 10, 303, 16);
+        jLabel2.setBounds(20, 10, 303, 14);
         jPanel4.add(campo_busca_sabores);
         campo_busca_sabores.setBounds(20, 30, 550, 23);
 
@@ -493,7 +493,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel4.add(btBuscarSabores);
-        btBuscarSabores.setBounds(590, 30, 101, 22);
+        btBuscarSabores.setBounds(590, 30, 101, 23);
 
         btExcluirCliente1.setText("Excluir");
         btExcluirCliente1.addActionListener(new java.awt.event.ActionListener() {
@@ -502,17 +502,17 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel4.add(btExcluirCliente1);
-        btExcluirCliente1.setBounds(590, 70, 101, 22);
+        btExcluirCliente1.setBounds(590, 70, 101, 23);
 
         lbErroSabor.setForeground(new java.awt.Color(255, 51, 51));
         lbErroSabor.setText("POR FAVOR, SELECIONE UMA LINHA.");
         jPanel4.add(lbErroSabor);
-        lbErroSabor.setBounds(190, 300, 199, 26);
+        lbErroSabor.setBounds(190, 300, 182, 26);
 
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Sabor:");
         jPanel4.add(jLabel3);
-        jLabel3.setBounds(20, 330, 90, 16);
+        jLabel3.setBounds(20, 330, 90, 14);
 
         tfInserir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -520,7 +520,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel4.add(tfInserir);
-        tfInserir.setBounds(20, 350, 546, 22);
+        tfInserir.setBounds(20, 350, 546, 20);
 
         btSalvarSabor.setText("SALVAR NOVO SABOR");
         btSalvarSabor.addActionListener(new java.awt.event.ActionListener() {
@@ -529,39 +529,36 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel4.add(btSalvarSabor);
-        btSalvarSabor.setBounds(180, 400, 276, 22);
+        btSalvarSabor.setBounds(180, 400, 276, 23);
 
         lbInvalido.setForeground(new java.awt.Color(255, 51, 51));
         lbInvalido.setText("VALOR INVÁLIDO");
         jPanel4.add(lbInvalido);
-        lbInvalido.setBounds(230, 370, 93, 16);
+        lbInvalido.setBounds(230, 370, 84, 14);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Tipo:");
         jPanel4.add(jLabel4);
         jLabel4.setBounds(600, 310, 64, 20);
 
         buttonGroup1.add(rbSimples);
         rbSimples.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        rbSimples.setForeground(new java.awt.Color(0, 0, 0));
         rbSimples.setText("Simples");
         jPanel4.add(rbSimples);
-        rbSimples.setBounds(600, 330, 80, 20);
+        rbSimples.setBounds(600, 330, 80, 25);
 
         buttonGroup1.add(rbEspecial);
         rbEspecial.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        rbEspecial.setForeground(new java.awt.Color(0, 0, 0));
         rbEspecial.setText("Especial");
         jPanel4.add(rbEspecial);
-        rbEspecial.setBounds(600, 350, 80, 20);
+        rbEspecial.setBounds(600, 350, 80, 25);
 
         buttonGroup1.add(rbPremium);
         rbPremium.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        rbPremium.setForeground(new java.awt.Color(0, 0, 0));
         rbPremium.setText("Premium");
         jPanel4.add(rbPremium);
-        rbPremium.setBounds(600, 370, 80, 20);
+        rbPremium.setBounds(600, 370, 80, 25);
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pizzaback.jpg"))); // NOI18N
         jPanel4.add(jLabel14);
@@ -577,26 +574,26 @@ public class Main extends javax.swing.JFrame {
         jPanel6.add(jLabel5);
         jLabel5.setBounds(278, 36, 211, 29);
         jPanel6.add(tfSimples);
-        tfSimples.setBounds(189, 106, 390, 22);
+        tfSimples.setBounds(189, 106, 390, 20);
         jPanel6.add(tfEspecial);
-        tfEspecial.setBounds(189, 158, 390, 22);
+        tfEspecial.setBounds(189, 158, 390, 20);
         jPanel6.add(tfPremium);
-        tfPremium.setBounds(189, 211, 390, 22);
+        tfPremium.setBounds(189, 211, 390, 20);
 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("SIMPLES:");
         jPanel6.add(jLabel6);
-        jLabel6.setBounds(189, 84, 48, 16);
+        jLabel6.setBounds(189, 84, 120, 14);
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("ESPECIAL:");
         jPanel6.add(jLabel7);
-        jLabel7.setBounds(189, 140, 53, 16);
+        jLabel7.setBounds(189, 140, 160, 14);
 
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("PREMIUM:");
         jPanel6.add(jLabel8);
-        jLabel8.setBounds(189, 192, 56, 16);
+        jLabel8.setBounds(189, 192, 140, 14);
 
         SalvarValores.setText("SALVAR VALORES");
         SalvarValores.addActionListener(new java.awt.event.ActionListener() {
@@ -702,6 +699,7 @@ public class Main extends javax.swing.JFrame {
             try {
                 con = ConnectionFactory.getConnection("jdbc:mysql://localhost:3307/db_pizza", "root", "", ConnectionFactory.MYSQL);
                 new ClienteDaoImpl(con).removerCliente(Integer.parseInt(tabela.getValueAt(tabela.getSelectedRow(), 0).toString()));
+                new PedidoDaoImpl(con).removerPedidosByIdCliente(Integer.parseInt(tabela.getValueAt(tabela.getSelectedRow(), 0).toString()));
                 con.close();
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(ClienteForm.class.getName()).log(Level.SEVERE, null, ex);
@@ -710,6 +708,7 @@ public class Main extends javax.swing.JFrame {
             }
             lbErro.setVisible(false);
             imprimeTodos();
+            imprimeTodosPedidos();
         } catch (Exception ex) {
             lbErro.setVisible(true);
         }
